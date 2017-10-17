@@ -5,12 +5,12 @@ from setuptools import setup, find_packages
 version = '.'.join([str(v) for v in __import__('pycard').VERSION])
 
 setup(
-    name='captain-pycard',
+    name='captain-pycard-sammy',
     description='A simple library for payment card validation',
     version=version,
-    author='Michael Angeletti',
-    author_email='michael@angelettigroup.com',
-    url='https://github.com/orokusaki/pycard/',
+    author='Sammy',
+    author_email='sammy.teillet@gmail.com',
+    url='https://github.com/Samox/pycard.git',
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
